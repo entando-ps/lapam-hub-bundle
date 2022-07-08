@@ -1,0 +1,68 @@
+code: lapam_metopack_kc_manager
+parentCode: homepage
+titles:
+  en: lapam-metopack-kc-manager
+  it: lapam-metopack-kc-manager
+pageModel: demo_internal
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: demo_login
+    config: null
+    pos: 1
+  - code: content_viewer
+    config:
+      contentDescription: Logo Demo esempio
+      modelId: '511'
+      ownerGroup: free
+      contentId: LOG02
+      joinGroups: '[]'
+    pos: 2
+  - code: demo_search
+    config: null
+    pos: 3
+  - code: demo_menu_es
+    config: null
+    pos: 4
+  - code: demo_breadcrumb
+    config: null
+    pos: 5
+  - code: lapam-kc-manager
+    config: null
+    pos: 6
+  - code: content_viewer
+    config:
+      contentDescription: Logo demo footer
+      modelId: '502'
+      ownerGroup: free
+      contentId: LOG03
+      joinGroups: '[]'
+    pos: 14
+  - code: content_viewer
+    config:
+      contentDescription: link footer esempio colonna 2
+      modelId: '513'
+      ownerGroup: free
+      contentId: LOL06
+      joinGroups: '[]'
+    pos: 16
+  - code: content_viewer
+    config:
+      contentDescription: link footer esempio colonna 3
+      modelId: '513'
+      ownerGroup: free
+      contentId: LOL07
+      joinGroups: '[]'
+    pos: 17
+  - code: content_viewer
+    config:
+      contentDescription: link footer esempio colonna 1
+      modelId: '513'
+      ownerGroup: free
+      contentId: LOL05
+      joinGroups: '[]'
+    pos: 18
