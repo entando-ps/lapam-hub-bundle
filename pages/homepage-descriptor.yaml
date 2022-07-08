@@ -4,7 +4,7 @@ titles:
   en: Entando Hub
   it: Entando Hub
 pageModel: hub-template-dd
-ownerGroup: administrators
+ownerGroup: free
 joinGroups: []
 displayedInMenu: true
 seo: false
@@ -21,7 +21,7 @@ widgets:
     config:
       contentDescription: The Lapam Hub title and subtitle
       modelId: "66"
-      ownerGroup: administrators
+      ownerGroup: free
       contentId: HEA57
       joinGroups: "[]"
     pos: 3
