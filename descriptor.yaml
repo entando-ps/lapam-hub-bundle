@@ -2,6 +2,8 @@ code: lapam-hub-bundle
 description: Lapam Hub bundle
 bundle-type: system-level-bundle
 components:
+  assets:
+    - assets/279/279-descriptor.yaml
   contentTypes:
     - contentTypes/hea-descriptor.yaml
   contentModels:
