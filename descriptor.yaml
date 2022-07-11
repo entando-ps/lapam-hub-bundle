@@ -2,47 +2,13 @@ code: lapam-hub-bundle
 description: Lapam Hub bundle
 bundle-type: system-level-bundle
 components:
-  widgets:
-    - widgets/eh-app-descriptor.yaml
-    - widgets/eh-login-descriptor.yaml
-    - widgets/ent-lapam-metopack-mfe-descriptor.yaml
-    - widgets/hero_unit-descriptor.yaml
-    - widgets/lapam-kc-manager-descriptor.yaml
-    - widgets/menu_lapam-descriptor.yaml
-    - widgets/search_form-descriptor.yaml
   pageModels:
-    - pageModels/1-2-column-descriptor.yaml
     - pageModels/eh-silent-check-sso-descriptor.yaml
-    - pageModels/hub-template-descriptor.yaml
     - pageModels/hub-template-dd-descriptor.yaml
   fragments:
-    - fragments/logo-descriptor.yaml
-    - fragments/eh_header_inclusion-descriptor.yaml
     - fragments/eh_header_inclusion_dd-descriptor.yaml
     - fragments/eh_keycloak_auth-descriptor.yaml
-    - fragments/keycloak_login-descriptor.yaml
-    - fragments/keycloak_auth-descriptor.yaml
-    - fragments/keycloak_auth_with_redirect-descriptor.yaml
+    - fragments/logo-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
     - pages/eh_keycloak_silent_check_sso-descriptor.yaml
-  groups:
-    - groups/groups-descriptor.yaml
-  contentTypes:
-    - contentTypes/bnr-descriptor.yaml
-    - contentTypes/hea-descriptor.yaml
-  contentModels:
-    - contentModels/header-title-and-subtitle-with-background-image-descriptor.yaml
-    - contentModels/banner-search-results-descriptor.yaml
-  assets:
-    - assets/277/277-descriptor.yaml
-    - assets/291/291-descriptor.yaml
-    - assets/77/77-descriptor.yaml
-    - assets/279/279-descriptor.yaml
-    - assets/262/262-descriptor.yaml
-    - assets/270/270-descriptor.yaml
-  contents:
-    - contents/bnr3-descriptor.yaml
-    - contents/hea57-descriptor.yaml
-  languages:
-    - languages/languages-descriptor.yaml
