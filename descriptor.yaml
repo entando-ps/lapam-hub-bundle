@@ -2,19 +2,19 @@ code: lapam-hub-bundle
 description: Lapam Hub bundle
 bundle-type: system-level-bundle
 components:
-  pageModels:
-    - pageModels/eh-silent-check-sso-descriptor.yaml
-    - pageModels/hub-template-dd-descriptor.yaml
-  fragments:
-    - fragments/eh_header_inclusion_dd-descriptor.yaml
-    - fragments/eh_keycloak_auth-descriptor.yaml
-    - fragments/logo-descriptor.yaml
-  pages:
-    - pages/homepage-descriptor.yaml
-    - pages/eh_keycloak_silent_check_sso-descriptor.yaml
+  contentTypes:
+    - contentTypes/hea-descriptor.yaml
   contentModels:
     - contentModels/header-title-and-subtitle-with-background-image-descriptor.yaml
   contents:
     - contents/hea57-descriptor.yaml
-  contentTypes:
-    - contentTypes/hea-descriptor.yaml
+  fragments:
+    - fragments/eh_header_inclusion_dd-descriptor.yaml
+    - fragments/eh_keycloak_auth-descriptor.yaml
+    - fragments/logo-descriptor.yaml
+  pageModels:
+    - pageModels/eh-silent-check-sso-descriptor.yaml
+    - pageModels/hub-template-dd-descriptor.yaml
+  pages:
+    - pages/homepage-descriptor.yaml
+    - pages/eh_keycloak_silent_check_sso-descriptor.yaml
