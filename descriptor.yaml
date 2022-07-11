@@ -12,3 +12,7 @@ components:
   pages:
     - pages/homepage-descriptor.yaml
     - pages/eh_keycloak_silent_check_sso-descriptor.yaml
+  contentModels:
+    - contentModels/header-title-and-subtitle-with-background-image-descriptor.yaml
+  contents:
+    - contents/hea57-descriptor.yaml
