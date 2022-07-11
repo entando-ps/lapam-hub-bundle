@@ -16,3 +16,5 @@ components:
     - contentModels/header-title-and-subtitle-with-background-image-descriptor.yaml
   contents:
     - contents/hea57-descriptor.yaml
+  contentTypes:
+    - contentTypes/hea-descriptor.yaml
