@@ -1,8 +1,8 @@
-code: homepage
+code: lapam-entando-homepage
 parentCode: homepage
 titles:
-  en: Entando Hub
-  it: Entando Hub
+  en: Lapam Entando Hub
+  it: Lapam Entando Hub
 pageModel: hub-template-dd
 ownerGroup: free
 joinGroups: []
