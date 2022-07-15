@@ -1,6 +1,8 @@
 code: lapam-hub-bundle
 description: Lapam Hub bundle
 components:
+  widgets:
+    - widgets/eh-logo-descriptor.yaml
   assets:
     - assets/279/279-descriptor.yaml
   contentTypes:
@@ -12,7 +14,6 @@ components:
   fragments:
     - fragments/eh_header_inclusion_dd-descriptor.yaml
     - fragments/eh_keycloak_auth-descriptor.yaml
-    - fragments/logo-descriptor.yaml
   pageModels:
     - pageModels/eh-silent-check-sso-descriptor.yaml
     - pageModels/hub-template-dd-descriptor.yaml

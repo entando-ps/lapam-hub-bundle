@@ -1,4 +1,8 @@
-code: logo
-guiCode: |-
+code: eh-logo
+titles:
+  en: logo-lapam
+  it: logo-lapam
+group: free
+customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <img src="<@wp.resourceURL />lapam-hub-bundle/img/lapam_logo.svg"/>

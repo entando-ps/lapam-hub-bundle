@@ -11,7 +11,7 @@ seo: false
 charset: utf-8
 status: published
 widgets:
-  - code: logo
+  - code: eh-logo
     config: null
     pos: 0
   - code: eh-login
