@@ -1,7 +1,7 @@
 code: eh-logo
 titles:
-  en: logo-lapam
-  it: logo-lapam
+  en: lapam logo
+  it: lapam logo
 group: free
 customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
